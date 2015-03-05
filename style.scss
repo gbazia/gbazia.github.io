@@ -7,6 +7,10 @@
 
 @import "_reset";
 @import "_variables";
+@import "_buttons";
+@import "_menu";
+@import "_portfolio";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -14,24 +18,24 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 1.2em;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font-family: $lato;
+  font-weight: 300;
+  color: $gray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 940px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -45,7 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
   a {
     color: inherit;
   }
@@ -66,6 +72,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  line-height: 1.5;
 }
 
 a {
@@ -73,7 +80,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    /*color: $blue;*/
   }
 }
 
@@ -151,12 +158,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  /* border-bottom: 1px solid $lightGray;*/
 
   @include mobile {
     text-align: center;
@@ -164,10 +171,9 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
   margin-right: 15px;
+  text-align: center;
+  display: block;
 
   @include mobile {
     float: none;
@@ -177,6 +183,9 @@ img {
 
   img {
     border-radius: 5px;
+    width: 300px;
+    height: 300px;
+
   }
 }
 
@@ -194,10 +203,13 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
   letter-spacing: 1px;
+  text-align: left;
+  text-transform: none;
+  font-size: 2em;
+  span {
+    color: $lightRed ;
+  }
 }
 
 .site-description {
@@ -213,7 +225,6 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -229,6 +240,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    position: relative;
 
     @include mobile {
       margin: 0 10px;
@@ -240,6 +252,21 @@ nav {
 //
 // .main
 //
+
+#presentation{
+  background-color: $lightGray;
+  padding:50px 0;
+  color: $black;
+  border-bottom: 1px solid $mediumGray;
+  text-align: center;
+}
+
+img.img-circle{border-radius:50%; border:8px solid $lightRed;}
+
+#portfolio{
+  color:$black;
+  background-color:$white;
+}
 
 .posts > .post {
   padding-bottom: 2em;

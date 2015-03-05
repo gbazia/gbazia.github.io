@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <script src="{{ site.baseurl }}/js/modernizr.custom.js"></script>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -24,23 +25,24 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          
           
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/"><span><</span> {{ site.name }} <span>/></span></a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
           
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
+          <nav class="cl-effect-4" id="cl-effect-4">
+            <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/contact">Contact</a>
           </nav>
         </header>
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+    <div id="main" role="main">
+        {{ content }}
     </div>
 
     <div class="wrapper-footer">
@@ -48,9 +50,15 @@
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
+        Powered by : Github / Sass /
       </div>
     </div>
-
+    <script src="{{ site.baseurl }}/js/classie.js"></script>
+    <script src="{{ site.baseurl }}/js/grid3d.js"></script>
+    <script src="{{ site.baseurl }}/js/helper.js"></script>
+    <script>
+      new grid3D( document.getElementById( 'grid3d' ) );
+    </script>
     {% include analytics.html %}
   </body>
 </html>

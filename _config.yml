@@ -6,7 +6,7 @@
 name: Guillaume Bazia
 
 # Short bio or description (displayed in the header)
-description: Web project manager and sunday developper
+description: IT project manager
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/1926569
@@ -26,7 +26,7 @@ footer-links:
   linkedin: 
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: guilaumebazia
+  twitter: guillaumebazia
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
@@ -51,7 +51,7 @@ baseurl: ""
 
 markdown: redcarpet
 highlighter: pygments
-permalink: /:title/
+permalink: pretty
 
 # The release of Jekyll Now that you're using
 version: v1.0.0

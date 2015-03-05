@@ -3,6 +3,8 @@
 // VARIABLES
 //
 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
+
 // Colors
 $blue: #4183C4; 
 
@@ -10,18 +12,31 @@ $blue: #4183C4;
 $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$gray: #a7a0a2;
+$mediumGray: #E0E0E0;
+$lightGray: #F5F5F5;
 $white: #fff;
+$lightRed : #FF5252;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$lato: 'Lato', sans-serif;
+
 
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
   }
+}
+
+
+
+.divider {
+  background-color: $lightRed;
+  height: 2px;
+  width: 80px;
+  margin: 30px auto;
 }
