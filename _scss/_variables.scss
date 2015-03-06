@@ -17,6 +17,7 @@ $mediumGray: #E0E0E0;
 $lightGray: #F5F5F5;
 $white: #fff;
 $lightRed : #FF5252;
+$lighRedLighter: lighten($lightRed, 10%);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

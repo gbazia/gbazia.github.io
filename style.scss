@@ -76,8 +76,9 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $lightRed;
   text-decoration: none;
+  font-weight: bold;
 	cursor: pointer;
   &:hover, &:active {
     /*color: $blue;*/
@@ -182,9 +183,10 @@ img {
   }
 
   img {
-    border-radius: 5px;
     width: 300px;
     height: 300px;
+    padding:5px 0;
+    background: $lighRedLighter;
 
   }
 }
@@ -261,7 +263,11 @@ nav {
   text-align: center;
 }
 
-img.img-circle{border-radius:50%; border:8px solid $lightRed;}
+img.img-circle{
+  border-radius:50%; 
+  box-shadow: 12px 0px 0px 12px rgba(255,255,255,0.2), -12px 0px 0px 12px rgba(255,255,255,0.2);
+  border:8px solid $lightRed;
+}
 
 #portfolio{
   color:$black;
