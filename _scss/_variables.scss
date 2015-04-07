@@ -7,6 +7,9 @@
 
 // Colors
 $blue: #4183C4; 
+$lightRed : #FF5252;
+$lighRedLighter: lighten($lightRed, 10%);
+
 
 // Grays
 $black: #000;
@@ -16,8 +19,6 @@ $gray: #a7a0a2;
 $mediumGray: #E0E0E0;
 $lightGray: #F5F5F5;
 $white: #fff;
-$lightRed : #FF5252;
-$lighRedLighter: lighten($lightRed, 10%);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -35,9 +36,3 @@ $lato: 'Lato', sans-serif;
 
 
 
-.divider {
-  background-color: $lightRed;
-  height: 2px;
-  width: 80px;
-  margin: 30px auto;
-}

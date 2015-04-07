@@ -165,7 +165,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  /* border-bottom: 1px solid $lightGray;*/
 
   @include mobile {
     text-align: center;
@@ -315,6 +314,13 @@ img.img-circle{
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.divider {
+  background-color: $lightRed;
+  height: 2px;
+  width: 80px;
+  margin: 30px auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
