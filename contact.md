@@ -13,7 +13,7 @@ permalink: /contact/
 Feel free to contact me for any questions
 
 Guillaume Bazia<br/>
-118 rue des moines<br/>
-75017 Paris<br/>
+6 rue du père talvas<br/>
+92110 Clichy<br/>
 
 [guillaume.bazia@gmail.com](mailto:guillaume.bazia@gmail.com)
