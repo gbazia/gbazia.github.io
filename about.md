@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<bold>MRM // McCANN (Paris)</bold> 03/2017 - 03/2020
+<h3>MRM // McCANN (Paris)</h3> 03/2017 - 03/2020
 
 Specialized in PHP and working on major accounts : 
 
@@ -20,7 +20,7 @@ Specialized in PHP and working on major accounts :
 
 Working with : Drupal, Symfony 2, Sonata, API RESTful, GIT & SVN, Capistrano
 
-<bold>Ekino (Paris)</bold> 09/2011 - 08/2016
+<h3>Ekino (Paris)</h3> 09/2011 - 08/2016
 
 Technical project manager specialized in PHP and working on major accounts : 
 * FFF
