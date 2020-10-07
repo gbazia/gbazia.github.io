@@ -12,6 +12,8 @@ Specialized in PHP and working on major accounts :
 * Symbiosys
 * Aigle Azur
 
+Managing and operational monitoring of project from conception to delivery
+
 * Conception
 * Technical Briefs, functional and technical documentations/specifications
 * Budget Management  and Reporting ;
@@ -27,6 +29,8 @@ Technical project manager specialized in PHP and working on major accounts :
 * Taxi G7
 * Canal +
 * Sage
+
+Managing and operational monitoring of project from conception to delivery
 
 * Conception
 * Technical Briefs, functional and technical documentations/specifications
